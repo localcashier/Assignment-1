@@ -1,0 +1,106 @@
+/*--- This code is only for the Desktop since this code will only be utilzed when a screen is 960px 
+wide or requires  more, so it will be using linear gradient, and diffrent CSS colors that are being use below. 
+  
+@charset "UTF-8";
+
+/* ---------- Page defaults ---------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    /* angled linear gradient background for the whole page */
+    background: linear-gradient(160deg, azure 0%, aliceblue 50%, beige 100%);
+}
+
+/* ---------- Used to enhance the Header / navigation bar for the pages. ---------- */
+header#banner {
+    
+    background: linear-gradient(135deg, tan, blanchedalmond);
+    padding: 20px;
+    text-align: center;
+}
+
+header#banner nav a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 8px 12px;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header#banner nav a.active {
+    text-decoration: underline;
+}
+
+header#banner nav a:hover {
+    background-color: beige;
+}
+
+/* ---------- This component is for main content part ---------- */
+main {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    
+    background: linear-gradient(to bottom, azure, aliceblue);
+    border: 2px solid tan;
+}
+
+main section h2 {
+    color: #333333;
+    border-bottom: 2px solid tan;
+    padding-bottom: 8px;
+}
+
+main section p {
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+/*---- The photo and video will be  default sized and the border will be default sized as well----- */
+main img, main video {
+    display: block;
+    margin: 15px 0;
+    border: 3px solid tan;
+}
+
+/* ---------- This form the Float layout: About Me photo, and it also  wraps the text around and 
+as the  photo floats to left so the bio paragraph wraps around it ------- */
+.profile-photo {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+/* ---------- Projects page: each project as its own block ---------- */
+main article {
+    background-color: beige;
+    border-left: 5px solid tan;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+main article h3 {
+    margin-top: 0;
+    color: #333333;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: tan;
+    color: #333333;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #333333;
+    font-weight: bold;
+}
