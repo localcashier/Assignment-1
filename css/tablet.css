@@ -17,8 +17,8 @@ header#banner {
 }
 
 /* -------The Tablet screens are pretty wide enough to fit all the nav links in one single row,
- compared to phones it couldnt. The nav links will be portrayed as an incline block whihch is simllar to desktop.
- I included smllar padding and margin so they can fit in nicely-------------*/
+ compared to phones it couldn't. The nav links will be portrayed as an incline block which is similar to desktop.
+ I included small padding and margin so they can fit in nicely-------------*/
 header#banner nav a {
     display: inline-block;
     margin: 0 8px;
