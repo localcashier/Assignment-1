@@ -1,0 +1,98 @@
+/*
+ ------ This CSS code is for Smartphones - phone.css (max-width: 480px)-----
+*/
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background: linear-gradient(160deg, azure 0%, aliceblue 50%, beige 100%);
+}
+
+header#banner {
+    background: linear-gradient(135deg, tan, blanchedalmond);
+    padding: 10px;
+    text-align: center;
+}
+
+/* ------nav links will basically display as full width blocks, This will cause them to stack vertically, since a phone screen is narrow to fit all four links in one row, phone verison operates different then the desktop and/tablet verison.------- */
+header#banner nav a {
+    display: block;
+    margin: 4px auto;
+    padding: 8px;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+header#banner nav a.active {
+    text-decoration: underline;
+}
+
+main {
+    width: 95%;
+    margin: 10px auto;
+    padding: 15px;
+    background: linear-gradient(to bottom, azure, aliceblue);
+    border: 2px solid tan;
+}
+
+main section h2 {
+    color: #333333;
+    border-bottom: 2px solid tan;
+    padding-bottom: 6px;
+    font-size: 1.3em;
+}
+
+main section p {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+main img, main video {
+    display: block;
+    margin: 10px 0;
+    border: 3px solid tan;
+    max-width: 100%;
+}
+
+/* ----The photo will NOT float on phone, as float:none doesnt involve a floating behavior, it will just make it too narrow, just stack it -------- */
+.profile-photo {
+    float: none;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 10px auto;
+}
+
+.clear {
+    clear: both;
+}
+
+main article {
+    background-color: beige;
+    border-left: 5px solid tan;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+}
+
+main article h3 {
+    margin-top: 0;
+    color: #333333;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: tan;
+    color: #333333;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.85em;
+}
+
+footer a {
+    color: #333333;
+    font-weight: bold;
+}
