@@ -1,6 +1,4 @@
-/*
-  tablet.css - TABLET (481px - 959px)
-*/
+/* -----This is for Tablets only, for viewing purposes use any IPAD or Samsung Tablets  tablet.css - TABLET (481px - 959px) -------*/
 @charset "UTF-8";
 
 body {
@@ -17,8 +15,9 @@ header#banner {
     text-align: center;
 }
 
-/* nav links stay side-by-side on tablet (there's enough room),
-   just smaller than on desktop */
+/* -------The Tablet screens are pretty wide enough to fit all the nav links in one single row,
+ compared to phones it couldnt. The nav links will be portrayed as an incline block whihch is simllar to desktop.
+ I included smllar padding and margin so they can fit in nicely-------------*/
 header#banner nav a {
     display: inline-block;
     margin: 0 8px;
@@ -59,7 +58,7 @@ main img, main video {
     max-width: 100%;
 }
 
-/* photo still floats on tablet, just a bit smaller than desktop */
+/* In this scenario photo will still float on tablet, but it will be smaller compared to the desktop ------- */
 .profile-photo {
     float: left;
     width: 180px;
