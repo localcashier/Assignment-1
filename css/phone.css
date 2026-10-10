@@ -17,7 +17,7 @@ header#banner {
     text-align: center;
 }
 
-/* ------nav links will basically display as full width blocks, This will cause them to stack vertically, since a phone screen is narrow to fit all four links in one row, phone verison operates different then the desktop and/tablet verison.------- */
+/* ------nav links will basically display as full width blocks, This will cause them to stack vertically, since a phone screen is narrow to fit all four links in one row, phone version operates different then the desktop and/tablet version.------- */
 header#banner nav a {
     display: block;
     margin: 4px auto;
@@ -59,7 +59,7 @@ main img, main video {
     max-width: 100%;
 }
 
-/* ----The photo will NOT float on phone, as float:none doesnt involve a floating behavior, it will just make it too narrow, just stack it -------- */
+/* ----The photo will NOT float on phone, as float:none doesn't involve a floating behavior, it will just make it too narrow, just stack it -------- */
 .profile-photo {
     float: none;
     width: 100%;
