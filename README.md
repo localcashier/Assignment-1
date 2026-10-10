@@ -9,7 +9,7 @@ a custom color scheme, which I will later go in depth about the color I used. Th
 
 ## GUI/Interface 
 
-### I) The following site is a combination of fluid design and media queries so that it can be fully responsive on browsers. 
+### I) This site combines fluid design and media queries so it is fully responsive across browsers. 
 Throughout the assignment, Flexbox was never used, and all layouts are built using normal flow boxes with 'float'and 'clear' 
 only, combined with fluid percentage-based widths. 
 
@@ -33,13 +33,42 @@ the profile photo stops floating and goes full-width instead of wrapping text be
 
 ### II) Gradients 
 
-- **Linear gradient:** applied to the body tag on all pages – background: linear-gradient(160deg, azure 0%, aliceblue 50%, beige 100%);` – for a subtle vertical color change from top to bottom.
+- **Linear gradient:** applied to the body tag on all pages – background: linear-gradient(160deg, azure 0%, aliceblue 50%, beige 100%); – for a subtle vertical color change from top to bottom.
 - **Angle linear gradient:** applied to the header#banner tag (top navigation bar) on all pages – `background: linear-gradient(135deg, tan, blanchedalmond); – for a 135° diagonal gradient.
 - The third type of gradient is applied to the main  content box – background: linear-gradient(to bottom, azure, aliceblue);
 
 ### III) Color scheme 
+<img width="1600" height="2400" alt="AdobeColor-My Color Theme" src="https://github.com/user-attachments/assets/f584a462-e08d-44e7-a463-99e4227e066c" /> 
 
- 
+I used the following colors because I like this similar palette that moves from blue/whites into warm tones, which makes the gradients blend smoothly rather than clash. Whereas tan, on the other hand, is used consistently for borders and accents across every page.
+
+## Testing and Validation  
+<img width="947" height="476" alt="Nu Html Checker" src="https://github.com/user-attachments/assets/01bec4b8-68e0-40e2-8d59-dbb79c78aba6" />
 
 
+<img width="935" height="496" alt="W3C CSS Vaildator Results" src="https://github.com/user-attachments/assets/67ed5a8e-b85d-4cd0-9f45-ce8592e46528" />
+
+
+<img width="944" height="494" alt="Line Checker" src="https://github.com/user-attachments/assets/39b3dcfd-4f3a-4966-a740-dfb47d57e46d" />
+
+
+
+<img width="892" height="487" alt="Spell Check" src="https://github.com/user-attachments/assets/002a9b20-19fa-4094-81c1-e73f744e7696" />
+
+<img width="946" height="511" alt="Wave Screenshot (2)" src="https://github.com/user-attachments/assets/bb15a9af-2e5c-4779-a323-1a23d47fcf40" />
+
+<img width="953" height="497" alt="Wave Screenshot (3)" src="https://github.com/user-attachments/assets/02a437c3-3d7e-4263-be49-73e4769e69b5" />
+
+<img width="954" height="502" alt="Wave Screenshot (1)" src="https://github.com/user-attachments/assets/411c06c0-1de9-4113-92c6-2be868c560a2" />
+
+
+## Version Control 
+
+This project was built and tracked by committing the  website at different stages during development. If you want to view the full commit history, it is posted below. 
+https://github.com/localcashier/Assignment-1 
+
+
+## Citations 
+
+This website was built using  concepts that were taught in class lectures and notes by Professor Ahmed Sheikh from weeks 1 to 4,  and PDF files 
  
